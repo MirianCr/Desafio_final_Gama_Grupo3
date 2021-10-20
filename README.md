@@ -9,4 +9,4 @@
 @Saulo rodrigues
 @Rafael Smith
 
-![imagem](https://github.com/MirianCr/Desafio_final_Gama_Grupo3/issues/1#issue-1030867993)
+![imagem](https://user-images.githubusercontent.com/92062517/138010765-8702cf91-e318-4a32-b641-586eed2276b1.jpg)
