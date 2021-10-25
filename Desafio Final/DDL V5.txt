@@ -1,0 +1,32 @@
+CREATE DATABASE `dbpousada` ;
+
+CREATE TABLE `cliente` (
+  `idCliente` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL,
+  `cpf` varchar(11) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  PRIMARY KEY (`idCliente`)
+) ;
+
+
+CREATE TABLE `quarto` (
+  `idQuarto` int NOT NULL AUTO_INCREMENT,
+  `ocupado` varchar(1) NOT NULL,
+  `andar` int NOT NULL,
+  `qtdHospede` int NOT NULL,
+  `numero` int NOT NULL,
+  PRIMARY KEY (`idQuarto`)
+);
+
+
+
+CREATE TABLE `reserva` (
+  `idReserva` int NOT NULL AUTO_INCREMENT,
+  `idCliente` int NOT NULL,
+  `idQuarto` int NOT NULL,
+  `dtEntrada` datetime DEFAULT NULL,
+  `dtSaidaPrevista` date NOT NULL,
+  `dtSaidaRealizada` datetime DEFAULT NULL,
+  `dtEntradaPrevista` date NOT NULL,
+  PRIMARY KEY (`idReserva`)
+) ;
