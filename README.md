@@ -1,6 +1,6 @@
 # Desafio_final_Gama_Grupo3
  Atividade em grupo -  Professor Paulo Ponciano - GamaAcademy -
-# GRUPO 3 -
+# GRUPO 3 - Turma 2
 @Kaah Mathias
 @Mirian Cris
 @Naira = 21 980486012
