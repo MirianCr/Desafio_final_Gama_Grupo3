@@ -9,9 +9,12 @@
 @Rafael Smith
 
 Linguagem: Python
+
+
 Banco de Dados : MySql
 
 Funcionalidades do sistema de gestão de pousada	
+
 	Cliente
 		- Cadastra cliente 
 		- Visualiza cliente
@@ -27,7 +30,9 @@ Funcionalidades do sistema de gestão de pousada
 		- Checkout
 		- Exclui Reserva
   
-Acompanhamento de atividades: https://trello.com/b/76anZYve/pousada
+Acompanhamento de atividades:
+
+https://trello.com/b/76anZYve/pousada
 
 
 
